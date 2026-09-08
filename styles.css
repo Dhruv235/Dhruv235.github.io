@@ -173,3 +173,33 @@ textarea:focus {
   padding: 25px;
   text-align: center;
 }
+
+.project {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+}
+
+.project img {
+  display: block;
+  max-width: 300px;
+}
+
+.project-details {
+  flex-grow: 1;
+}
+
+#contact-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.project-details a {
+  background-color: #1e3a5f;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+}

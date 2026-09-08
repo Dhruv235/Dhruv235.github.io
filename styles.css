@@ -164,3 +164,57 @@ textarea:focus {
   margin-bottom: 20px;
   padding: 20px;
 }
+
+body {
+  background-color: #eef6ff;
+  color: #1f2937;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+.navbar {
+  background-color: hsl(211, 58%, 24%);
+  text-align: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  justify-content: center;
+}
+
+.nav-list a:hover {
+  color: rgb(251, 191, 36);
+  text-decoration: underline;
+}
+
+.page-title {
+  color: #1d4e89;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page-title + p {
+  font-style: italic;
+  text-align: center;
+}
+
+.project,
+.resume .section,
+#contact-form {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.project-name {
+  text-transform: capitalize;
+}
+
+.footer {
+  background-color: #102a43;
+  text-align: center;
+}
